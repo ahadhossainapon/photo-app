@@ -11,20 +11,20 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+#ignor all coverage file
+coverage
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-
-# Ignore uploaded files in development
-/storage/*
-
+.idea
+config/database.yml
+config/application.yml
 /node_modules
 /yarn-error.log
 
-/public/assets
 .byebug_history
 
-# Ignore master key for decrypting credentials and more.
-/config/master.key
+/public/uploads
